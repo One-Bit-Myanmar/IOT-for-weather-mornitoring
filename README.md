@@ -1,20 +1,22 @@
 <a id="readme-top"></a>
 
-
-
-
-
 <!-- PROJECT LOGO -->
-<br/>
+<br />
+<div align="center">
+  <a href="https://github.com/One-Bit-Myanmar/mahar-link.git">
+    <img src="./image/mahar-link-logo.png" alt="Logo">
+  </a>
+</div>
+
 <div align="center">
   <h3 align="center">IOT device for weather morintoring</h3>
 
   <p align="center">
     The weather IoT system that continuously monitors temperature and humidity using a DHT22 sensor transmitting real-time data for easy remote access and monitoring.
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://github.com/One-Bit-Myanmar/IOT-for-weather-mornitoring/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/One-Bit-Myanmar/IOT-for-weather-mornitoring/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
@@ -93,25 +95,22 @@ This Weather IoT project is designed to monitor and transmit real-time environme
 To successfully build and run the IoT Weather Monitoring System, you’ll need the following:
 
 #### Hardware Requirements
-- **ESP32 or ESP8266** microcontroller board
-  - Make sure your board is functional and compatible with the Arduino IDE.
-- **DHT22 Sensor**
-  - A DHT22 temperature and humidity sensor for environmental data collection.
-- **Wiring and Breadboard**
-  - Jumper wires and a breadboard for secure connections between the microcontroller and sensor.
-- **Power Supply**
-  - USB cable or battery pack to power the ESP32/ESP8266.
-- If you just want to test, you can go to [Wokwi](https://wokwi.com/).  Additionally, you can view this IOT project in in [This IOT's Wokwi](https://wokwi.com/projects/413198851762210817)
+| **Component**                | **Description**                                                                                                 |
+|------------------------------|-----------------------------------------------------------------------------------------------------------------|
+| **ESP32 or ESP8266**         | Microcontroller board. Ensure your board is functional and compatible with the Arduino IDE.                     |
+| **DHT22 Sensor**             | A DHT22 temperature and humidity sensor for environmental data collection.                                      |
+| **Wiring and Breadboard**    | Jumper wires and a breadboard for secure connections between the microcontroller and sensor.                    |
+| **Power Supply**             | USB cable or battery pack to power the ESP32/ESP8266.                                                           |
+| **Testing Platform**         | If you just want to test, you can go to [Wokwi](https://wokwi.com/). Additionally, you can view this IoT project in [This IoT's Wokwi](https://wokwi.com/projects/413198851762210817). |
 
 #### Software Requirements
-- **Arduino IDE**
-  - Download and install the Arduino IDE for programming the ESP32 or ESP8266.
-  - Ensure the **ESP32/ESP8266 board libraries** are installed in the Arduino IDE.
-- **Arduino Libraries**
-  - **PubSubClient** library for MQTT communication.
-  - **DHT Sensor Library** for reading data from the DHT22 sensor.
-- **WiFi Network**
-  - Access to a 2.4GHz WiFi network (compatible with most ESP boards) with SSID and password available.
+#### Software Requirements
+
+| **Requirement**             | **Description**                                                                                                 |
+|-----------------------------|-----------------------------------------------------------------------------------------------------------------|
+| **Arduino IDE**             | Download and install the Arduino IDE for programming the ESP32 or ESP8266. Ensure the **ESP32/ESP8266 board libraries** are installed in the Arduino IDE. |
+| **Arduino Libraries**       | **PubSubClient** library for MQTT communication. **DHT Sensor Library** for reading data from the DHT22 sensor. |
+| **WiFi Network**            | Access to a 2.4GHz WiFi network (compatible with most ESP boards) with SSID and password available.             |
 
 #### MQTT Broker
 - **MQTT Broker** (e.g., HiveMQ’s public broker or Mosquitto)
@@ -131,9 +130,10 @@ Follow these steps to install and set up the IoT Weather Monitoring System:
 
 #### 1. Hardware Setup
 1. **Connect the DHT22 Sensor** to the ESP32 or ESP8266:
-   - Connect the **VCC** pin of the DHT22 to the **3.3V** pin on the ESP board.
-   - Connect the **GND** pin of the DHT22 to the **GND** pin on the ESP board.
-   - Connect the **Data** pin of the DHT22 to a digital **GPIO pin** (e.g., GPIO15) on the ESP board.
+    - Connect the **VCC** pin of the DHT22 to the **3.3V** pin on the ESP board.
+    - Connect the **GND** pin of the DHT22 to the **GND** pin on the ESP board.
+    - Connect the **Data** pin of the DHT22 to a digital **GPIO pin** (e.g., GPIO15) on the ESP board.
+
 2. **Power the ESP32/ESP8266** using a USB cable connected to your computer or an external power source.
 
 #### 2. Software Setup
@@ -173,11 +173,14 @@ Follow these steps to install and set up the IoT Weather Monitoring System:
 The IoT Weather Monitoring System is a powerful yet simple tool for continuously monitoring environmental conditions, providing real-time data that is easily accessible from anywhere. Below are some common use cases and the benefits of using this system:
 
 ### Real-Time Environmental Monitoring
-- **Home Monitoring**: Track indoor temperature and humidity to maintain a comfortable living environment, and receive alerts when conditions reach uncomfortable or potentially harmful levels.
-- **Greenhouses and Gardens**: Monitor climate conditions in greenhouses to ensure optimal temperature and humidity for plant growth, reducing the risk of plant stress or disease.
-- **Storage Facilities**: Maintain the ideal environment for sensitive materials (e.g., electronics, food, documents) by tracking temperature and humidity levels and preventing conditions that could lead to deterioration.
+| **Use Case**              | **Description**                                                                                                                                               |
+|---------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Home Monitoring**       | Track indoor temperature and humidity to maintain a comfortable living environment, and receive alerts when conditions reach uncomfortable or potentially harmful levels. |
+| **Greenhouses and Gardens** | Monitor climate conditions in greenhouses to ensure optimal temperature and humidity for plant growth, reducing the risk of plant stress or disease.                |
+| **Storage Facilities**    | Maintain the ideal environment for sensitive materials (e.g., electronics, food, documents) by tracking temperature and humidity levels and preventing conditions that could lead to deterioration. |
 
 ### Remote Weather Station
+
 - The system acts as a lightweight, affordable remote weather station, ideal for individuals, hobbyists, or researchers in rural or outdoor areas.
 - **Weather Data Collection**: Collect environmental data over time, gaining insights into local weather patterns without the need for expensive equipment.
 - **Public Weather Sharing**: Share data with local communities or organizations that may benefit from having real-time environmental data, especially in areas without formal weather stations.
@@ -187,6 +190,7 @@ The IoT Weather Monitoring System is a powerful yet simple tool for continuously
 - **Understanding Cloud and Network Communication**: Gain knowledge of cloud-based communication, networking protocols (e.g., MQTT), and data publishing by seeing how sensor data travels from a device to the cloud.
 
 ### Data Logging and Automation (Advanced Usage)
+
 - **Data Analysis**: Integrate with cloud platforms like AWS IoT or Google Cloud IoT to log data for long-term analysis, helping identify trends and enabling predictive insights.
 - **Smart Automation**: Set up smart actions based on specific conditions, such as automatically turning on a fan or humidifier if temperature or humidity thresholds are exceeded.
 
