@@ -103,7 +103,12 @@ To successfully build and run the IoT Weather Monitoring System, you’ll need t
 | **Power Supply**             | USB cable or battery pack to power the ESP32/ESP8266.                                                           |
 | **Testing Platform**         | If you just want to test, you can go to [Wokwi](https://wokwi.com/). Additionally, you can view this IoT project in [This IoT's Wokwi](https://wokwi.com/projects/413198851762210817). |
 
-#### Software Requirements
+#### Circuit Diagram
+![Circuit Diagram](/image/circuit-diagram.jpg)
+
+#### Model Architecture
+![Model Architecture](/image/model-arch.jpg)
+
 #### Software Requirements
 
 | **Requirement**             | **Description**                                                                                                 |
