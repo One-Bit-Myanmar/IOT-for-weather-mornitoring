@@ -34,6 +34,7 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -77,7 +78,6 @@ This Weather IoT project is designed to monitor and transmit real-time environme
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
 * [![Arduino][Next.js]][Next-url]
 
@@ -87,9 +87,6 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 <!-- GETTING STARTED -->
 ## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
@@ -126,9 +123,6 @@ To successfully build and run the IoT Weather Monitoring System, you’ll need t
   - HiveMQ’s [WebSocket Client](http://www.hivemq.com/demos/websocket-client/) or any other MQTT client for subscribing to the topic and viewing real-time data.
 - **Cloud Integration** (optional)
   - If you want to log or analyze data, consider setting up a cloud IoT platform (e.g., AWS IoT or Google Cloud IoT).
-
-
-Once you have the required hardware, software, and network setup, you’ll be ready to build, code, and deploy the IoT Weather Monitoring System.
 
 
 ### Installation
