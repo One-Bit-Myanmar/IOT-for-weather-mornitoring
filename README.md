@@ -104,10 +104,14 @@ To successfully build and run the IoT Weather Monitoring System, you’ll need t
 | **Testing Platform**         | If you just want to test, you can go to [Wokwi](https://wokwi.com/). Additionally, you can view this IoT project in [This IoT's Wokwi](https://wokwi.com/projects/413198851762210817). |
 
 #### Circuit Diagram
-![Circuit Diagram](/image/circuit-diagram.jpg)
+| **Diagram**                | **Description**                                                                                                 |
+|----------------------------|-----------------------------------------------------------------------------------------------------------------|
+| [![Circuit Diagram](/image/circuit-diagram.jpg)](/image/iot-demo.mp4) | The wiring setup for connecting the DHT22 sensor to the ESP32/ESP8266 microcontroller. **`Click the image for Demo Test Video.`** |
 
 #### Model Architecture
-![Model Architecture](/image/model-arch.jpg)
+| **Architecture**           | **Description**                                                                                                 |
+|----------------------------|-----------------------------------------------------------------------------------------------------------------|
+| ![Model Architecture](/image/model-arch.jpg) | The overall architecture of the IoT system, showing data flow from the sensor to the MQTT broker. |
 
 #### Software Requirements
 
